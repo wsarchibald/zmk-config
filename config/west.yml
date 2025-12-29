@@ -1,13 +1,11 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-    - name: nick-conway
-      url-base: https://github.com/nickconway/zmk-config.git
+      url-base: https://github.com/nickconway
   projects:
     - name: zmk
-      remote: nick-conway
-      revision: esp32-s3-v3.5
+      remote: zmkfirmware
+      revision: dev
       import: app/west.yml
   self:
     path: config
