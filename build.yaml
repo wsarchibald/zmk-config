@@ -1,4 +1,4 @@
 ---
 include:
-  - board: esp32s3_devkitm
+  - board: esp32s3_devkitm/esp32s3/procpu
     shield: william_macropad
